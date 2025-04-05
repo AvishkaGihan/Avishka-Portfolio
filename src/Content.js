@@ -1,21 +1,11 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
-import aws from "./assets/images/Skills/aws.png";
-import docker from "./assets/images/Skills/docker.png";
 import figma from "./assets/images/Skills/figma.png";
-import github from "./assets/images/Skills/github.png";
-import html from "./assets/images/Skills/html.png";
-import css from "./assets/images/Skills/css.png";
-import javascript from "./assets/images/Skills/javascript.png";
-import mongo from "./assets/images/Skills/mongo.png";
-import nextjs from "./assets/images/Skills/nextjs.png";
-import node from "./assets/images/Skills/node.png";
-import PostgreSQL from "./assets/images/Skills/PostgreSQL.png";
-import prisma from "./assets/images/Skills/prisma.png";
-import react from "./assets/images/Skills/react.png";
-import redux from "./assets/images/Skills/redux.png";
-import tailwindcss from "./assets/images/Skills/tailwindcss.png";
-import typescript from "./assets/images/Skills/typescript.png";
+import sketch from "./assets/images/Skills/sketch.png";
+import ps from "./assets/images/Skills/ps.png";
+import reactjs from "./assets/images/Skills/react.png";
+import nodejs from "./assets/images/Skills/node.png";
+import python from "./assets/images/Skills/python.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -95,13 +85,27 @@ export const content = {
       {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
-        logo: node,
+        logo: nodejs,
       },
-
+      {
+        name: "Adobe Photoshop",
+        para: "Lorem ipsum text  dummy",
+        logo: ps,
+      },
       {
         name: "React js",
         para: "Lorem ipsum text  dummy",
-        logo: react,
+        logo: reactjs,
+      },
+      {
+        name: "Sketch",
+        para: "Lorem ipsum text  dummy",
+        logo: sketch,
+      },
+      {
+        name: "Python",
+        para: "Lorem ipsum text  dummy",
+        logo: python,
       },
     ],
     icon: MdArrowForward,
